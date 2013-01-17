@@ -1,0 +1,38 @@
+﻿/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,h7,p{
+	margin:0px;
+	/*background-color:#CFF;*/
+}
+li,ul{
+	margin:0px;
+	padding:0px;
+}
+div#container {
+	position:relative;
+	width:960px;
+	height:100%;
+	margin:0px auto;
+	text-align:center;
+}
+
+/*****文章列表 component/article.div.php
+***********************/
+div#sedArticle{
+	width:700px;
+	padding:10px;
+	text-align:left;
+}
+div#sedArticle ul li div.artSummary{
+}
+div.artSummary .title{/*标题*/
+	margin:3px 10px;
+	width:280px;
+	display:inline-block;
+}
+div.artSummary ul.information{
+	display:inline-block;
+}
+div.artSummary ul li{
+	display:inline-block;
+}

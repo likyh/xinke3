@@ -1,0 +1,359 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	background: #FFFFFF url(images/mainBG.gif) repeat-x;
+}
+a:link, a:visited {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active, a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+.more_button a {
+	clear: both;
+	display: block;
+	width: 70px;
+	margin: 0 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #660;
+	background: #ffd929;
+	border-bottom: 1px solid #aa8c02;
+}
+.addtocard_btn a {
+	clear: both;
+	display: block;
+	width: 90px;
+	margin: 0 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #660;
+	background: #ffd929;
+	border-bottom: 1px solid #aa8c02;
+}
+h1 {
+	margin: 0;
+	padding: 3px 0px 15px 0px;
+	font-size: 30px;
+	font-weight: normal;
+	color: #99CC00;
+}
+h2 {
+	margin: 0 0 15px 0;
+	padding: 0;
+	height: 30px;
+	padding: 10px 0 0 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0000FF;
+}
+h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+img {
+	margin: 0 0 15px 0;
+	padding: 0;
+	border: 1px solid #FFFFFF;
+}
+div#container {
+	margin: auto;
+	width: 970px;
+}
+/* main title */
+div#mainTitle {
+	width: 950px;
+	height: 100px;
+	padding: 0 10px;
+	background: url(images/topPanelBG.jpg) no-repeat;
+}
+div#mainTitle span {
+	float: left;
+	margin: 30px 25px 0 100px;
+	width: 450px;
+	height: 30px;
+	padding: 10px 0;
+	color: #FFFFFF;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+}
+/* end of main title */
+
+/* banner */
+div#banner {
+	width: 950px;
+	height: 250px;
+	padding: 0 10px;
+	color: #FFFFFF;
+	background: url(images/bannerBG.jpg) no-repeat;
+}
+#bannerText {
+	padding: 75px 0 0 50px;
+	width: 400px;
+	font-family: "华文行楷", "华文楷体", "楷体";
+}
+#bannerText p {
+	margin: 0 0 4px 24px;
+	padding: 0;
+	font-family: "微软雅黑", "新宋体", "宋体", "华文中宋";
+}
+/* end of banner */
+
+/*------------- navigation ------------------*/
+#navigation {
+	width: 950px;
+	height: 65px;
+	padding: 0 10px;
+	background: url(images/menuBG.gif) no-repeat;
+}
+#navigation ul {
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+#navigation ul li {
+	display: inline;
+}
+#navigation ul li a {
+	float: left;
+	width: 130px;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #c10a0a;
+}
+#navigation li a:hover, #templatemo_menu li .current {
+	color: #FFCC00;
+}
+/* ----------------- end of Navigation----------------*/
+
+/* ----------------- Content ----------------------- */
+
+#content {
+	float: left;
+	width: 950px;
+	padding: 0 10px;
+	background: url(images/contentBG.gif) repeat-y;
+}
+/* left panel */
+div#labels {
+	float: left;
+	width: 250px;
+	color: #FFF;
+	margin: 0 25px 0 15px;
+}
+* html div#labels {
+	float: left;
+	width: 250px;
+	color: #FFF;
+	margin: 0 25px 0 10px;
+}
+div#labels p {
+	padding: 0 0 15px 0;
+	margin: 0;
+}
+div#labels img {
+	border: none;
+	margin-bottom: 15px;
+}
+div#labels ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div#labels ul li {
+	display: block;
+}
+div#labels ul li a {
+	padding: 0px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+div#labels ul li a:hover {
+	color: #ffd200;
+}
+/*panel */
+div.panel {
+	width: 250px;
+}
+div.panelBottom {
+	width: 250px;
+	height: 5px;
+	margin-bottom: 25px;
+}
+* html div.panelBottom {
+	margin-bottom: 0;
+}
+div.panel.blue {
+	background: #0643b4;
+}
+div.panelBottom.blue {
+	background: url(images/blueTitle/bluePanelBM.gif) no-repeat;
+}
+div.panel.blue h2 {
+	background: url(images/blueTitle/blueTitleBG.gif) no-repeat;
+}
+div.panel.red {
+	background: #e10d0d;
+}
+div.panelBottom.red {
+	background: url(images/redTitle/redPanelBM.gif) no-repeat;
+}
+div.panel.red h2 {
+	background: url(images/redTitle/redTitleBG.gif) no-repeat;
+}
+div.panel.yellow {
+	background: #efc505;
+}
+div.panelBottom.yellow {
+	background: url(images/yellowTitle/yellowPanelBM.gif) no-repeat;
+}
+div.panel.yellow h2 {
+	background: url(images/yellowTitle/yellowTitleBG.gif) no-repeat;
+}
+div#labels div.content {
+	padding: 0 25px 10px 25px;
+}
+/* end of left panel */
+/* ----- Form ----- */
+.form_row {
+	padding: 0 0 5px 0;
+}
+.form_row form {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	text-align: left;
+}
+.form_row label {
+	margin-right: 10px;
+}
+.form_row input {
+	width: 142px;
+	height: 18px;
+	line-height: normal;
+	padding: 4px 0;
+	margin: 6px 0;
+	color: #000000;
+	border: 1px solid #FFFFFF;
+}
+.form_row .button {
+	width: 60px;
+	height: 23px;
+}
+/* End of Form */
+
+/*-------------------form--------*/
+#addBox {
+	width: 350px;
+	clear: both;
+	padding: 30px 0 0 10px;
+	margin: 10px 0 20px 0;
+}
+#addBox label {
+	float: left;
+	padding-top: 7px;
+	font-weight: bold;
+	color: #510000;
+}
+#addBox input.textInput {
+	width: 255px;
+	height: 22px;
+	background: url(images/input_bg.jpg) no-repeat left top;
+	background-position: 0px 0px;
+	border: none;
+	padding: 8px 10px 5px 15px;
+	color: #000;
+	float: right;
+}
+#addBox input#submit {
+}
+#addBox textarea {
+	width: 260px;
+	height: 77px;
+	background: url(images/textarea.jpg) no-repeat left top;
+	background-position: 5px 0px;
+	border: none;
+	padding: 10px 5px 10px 20px;
+	color: #000;
+	float: right;
+}
+#addBox .clear {
+	clear: both;
+	overflow: hidden;
+	height: 4px;
+}
+/****************end of form2 *************/
+#articles {
+	float: right;
+	width: 620px;
+	margin: 0 15px 0 0;
+}
+#articles h1 {
+	margin: 0 0 15px 0;
+	color: #666666;
+}
+#articles p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-align: justify;
+}
+#articles img {
+	float: left;
+	margin: 3px 10px 5px 0;
+}
+.articlesBox {
+	float: left;
+	width: 620px;
+	padding: 0 0 50px 0;
+}
+div#contentBottom {
+	clear: both;
+	width: 970px;
+	height: 20px;
+	background: url(images/contentBM.gif) no-repeat;
+}
+/* ----- Footer ----- */
+
+#copyright {
+	clear: both;
+	padding: 10px 10px;
+	width: 950px;
+	text-align: center;
+	background: #FFFFFF;
+	text-align: center;
+}
+#copyright a {
+	font-weight: normal;
+	color: #666666;
+}
+
+/* ----- End of Footer ----- */
